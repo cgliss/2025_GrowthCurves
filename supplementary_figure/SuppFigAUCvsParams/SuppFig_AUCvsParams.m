@@ -3,7 +3,7 @@
 % Getting user inputs common across all scripts
 cd ../../
 [timeResolution,lastPossibleTimePoint, lastTimePoint, cellConcentration, halfAUC,upper_bound, lower_bound, time, timeLimited, gompertz_model, colors, A600, boundOrder]= userInputs;
-load("AllGrowthCurves_ln_20250320.mat")
+load("AllGrowthCurves_Part1.mat")
 load("ABXmechColorMap.mat")
 cd supplementary_figure/SuppFigAUCvsParams
 %% Getting no drug fit using median 

@@ -1,6 +1,6 @@
 %% Getting MIC of each drug based on which concentration is above the inhibitory concentration
 cd ../../
-load('AllGrowthCurves_ln_20250320.mat','allAUCdata')
+load('AllGrowthCurves_Part2.mat.mat','allAUCdata')
 [timeResolution,lastPossibleTimePoint, lastTimePoint, cellConcentration, halfAUC,upper_bound, lower_bound, time, timeLimited, gompertz_model, colors, A600, boundOrder]= userInputs;
 cd supplementary_figure/calculateMIC
 %%
